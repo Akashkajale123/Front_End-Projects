@@ -1,0 +1,43 @@
+.container{
+    height:98vh;
+    width: 98vw;
+    align-items: center;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+    text-align: center;
+}
+label{
+    margin-left: 30px;
+    color: green;
+}
+.inputTag{
+    color: black;
+}
+#item-price-input{
+    margin-left: 5px;
+}
+button{
+    height: 28px;
+    width: 120px;
+    margin: 30px 0px 0px 30px;
+    background-color: aqua;
+    color: black;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+table{
+    margin-top: 30px;
+}
+h3{
+    margin-left: 20px;
+   
+}
+tbody{
+    text-align: center;
+}
+
+

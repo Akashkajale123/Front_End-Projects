@@ -1,0 +1,38 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Glocery_List</h1>
+        <label for="itemName">Enter Item Name :</label>
+        <input type="text" class="inputTag" id="item-name-input">
+        <br>
+        <br>
+        <label for="price">Enter Item Price :</label>
+        <input type="number" class="inputTag" id="item-price-input">
+        <br>
+        <button id="addbtn">Add Item</button>
+        <h3>Grand Total: <span id="grandTotal">₹ 0.00</span></h3>
+        
+            <table>
+               <thead>
+                <tr>
+                    <th style="width: 10%;">SR.NO</th>
+                    <th style="width: 30%;">Item_Name</th>
+                    <th style="width: 30%;">Price</th>
+                  </tr>
+               </thead>
+               <tbody id="item_table">
+
+               </tbody>
+
+                </table> 
+                
+</body>
+<script src="glocery.js"></script>
+</html>

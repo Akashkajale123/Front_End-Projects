@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3da1a747b2.js"></script>
+</head>
+<body>
+    <h2 id="heading">Rock Paper Scissor</h2>
+    <div class="container">
+    <label for="">Enter No_Of_Turns :</label>
+    <input type="number" data-ns-test="game-number" id="no_of_turns">
+    <br>
+    <br>
+    <button data-ns-test="play-game" id="play_game">Play Game</button>
+    <p data-ns-test="round-left" id="round-left">Turns Left: 0</p>
+    <p data-ns-test="user-points" id="user-points">User Points : <span id="user"></span></p>
+    <p data-ns-test="computer-points" id="computer-points">Computer Points : <span id="comp"></span></p>
+    
+    <br>
+    <p data-ns-test="game-result" id="game-result"></p>
+    </div>
+    <div class="options">
+        <i id="playIcon" data-ns-test="rock"  class="choice fas fa-hand-rock fa-10x"></i>
+        <i id="playIcon" data-ns-test="paper" class="choice fas fa-hand-paper fa-10x"></i>
+        <i id="playIcon" data-ns-test="scissors"  class="choice fas fa-hand-scissors fa-10x"></i>
+        <h1 id="final"></h1>
+    </div>
+    <div class="final">
+        <p data-ns-test="round-result" id="round-result"></p>
+        <p id="game_over"></p>
+    </div>
+   
+
+</body>
+<script src="game.js"></script>
+</html>

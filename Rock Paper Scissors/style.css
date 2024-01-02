@@ -1,0 +1,53 @@
+body{
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0;
+}
+#heading{
+    text-align: center;
+    font-weight: 500;
+    font:bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container{
+    text-align: center;
+}
+#play-game{
+    width: 100px;
+}
+.options{
+    background-color: aquamarine;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#choice{
+    text-align: center;
+
+}
+.choice {
+    margin: 0 20px; /* Adjust the value to control the horizontal spacing */
+  }
+  
+  .choice:first-child {
+    margin-left: 0; /* No left margin for the first element */
+  }
+  
+  .choice:last-child {
+    margin-right: 10px; /* No right margin for the last element */
+  }
+  .final{
+    width: 100%;
+    height: 100px;
+    background-color:lightblue
+  }
+  #round-result,#game_over{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    
+  }
